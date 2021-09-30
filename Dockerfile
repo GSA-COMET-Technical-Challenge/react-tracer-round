@@ -4,5 +4,6 @@ WORKDIR /src
 
 ADD . /src
 
-RUN npm build
+RUN npm install
 
+CMD [ "npm", "start" ]
