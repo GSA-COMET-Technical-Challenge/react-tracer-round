@@ -4,5 +4,5 @@ WORKDIR /src
 
 ADD . /src
 
-# RUN
+RUN npm build
 
