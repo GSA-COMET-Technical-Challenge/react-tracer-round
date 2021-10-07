@@ -5,6 +5,7 @@ WORKDIR /src
 
 ADD . /src
 
+RUN npm install -g npm@7.24.2
 RUN npm install
 
 CMD [ "npm", "start" ]
